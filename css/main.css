@@ -1,0 +1,88 @@
+body{
+    font-family: 'Macondo', cursive;
+}
+
+.max-viewport{
+    min-height: 100vh;
+}
+
+/* navbar */
+.transparent{
+    background: rgba(0, 0, 0, 0.7);
+}
+.nav-link,
+.navbar-brand{
+    color: #f15025 !important;
+}
+
+.navbar a:hover{
+    color: whitesmoke !important;
+}
+
+header{
+    background: url(../images/home.jpg) fixed  no-repeat;
+}
+
+.banner-center{
+    height: 100vh;
+    color: rgb(27, 72, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-underline{
+    width: 300px;
+    border: 3px solid #f15025;
+}
+
+.white-btn,
+.navy-btn{
+    font-size: 40px;
+    text-decoration: none !important;
+    border-radius: 20px;
+}
+
+.navy-btn{
+    border: 3px solid #2d312d;
+}
+.white-btn{
+    border: 3px solid whitesmoke;
+}
+
+.white-btn:hover,
+.white-btn:focus{
+    background-color: whitesmoke;
+}
+
+/* title */
+.text-underline{
+    width: 150px;
+    border: 2px solid #f15025;
+}
+/* Qualities section */
+
+/* Project Section */
+.order-1,
+.order-3, 
+.order-5{
+    padding: 0;
+}
+
+/* contact section */
+#contact .form-control{
+    border-radius: 0;
+    font-size: 20px;
+}
+
+/* footer */
+footer hr{
+    background-color: whitesmoke;
+}
+
+footer .footer-icons a{
+    color: grey;
+}
+footer .footer-icons a:hover{
+    color: whitesmoke;
+}
